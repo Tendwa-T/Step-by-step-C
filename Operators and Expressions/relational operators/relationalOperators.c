@@ -15,4 +15,8 @@ int main(){
     }else if(age < 18){ //< is the less than sign.Its corresponding sign is <= which denotes less than or equal to
         printf("\nYou are below legal age\n");
     }
+
+    if (age != 18){ //!= denotes not equal to
+        printf("The age is no equal to 18");
+    }
 }
