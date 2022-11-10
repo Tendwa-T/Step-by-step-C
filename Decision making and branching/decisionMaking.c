@@ -41,4 +41,14 @@ int main(){
     printf("\nEnter an appropriate value\n");
         break;
     }
+
+    //We can also use a conditional operator(?) for certain functions
+
+    int a = 10;//sets a
+    int b = 20;//sets b
+    int c = (a<b)? a:b;//sets c depending on the true or false nature of the statement true:false
+    
+    printf("%d", c); //Output is 10 because the expression is true. a is less than b
+
+    
 }
